@@ -14,7 +14,7 @@ app = FastAPI()
 
 # Load the model and tokenizer
 model_path = "feedlight42/mbart25-text2picto"
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = MBartForConditionalGeneration.from_pretrained(model_path)
 tokenizer = MBartTokenizerFast.from_pretrained(model_path)
