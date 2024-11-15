@@ -1,5 +1,7 @@
+fastapi
+uvicorn
 flask
 transformers
 torch
-sentencepiece
+pydantic
 requests
