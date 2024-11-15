@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import MBartForConditionalGeneration, MBartTokenizerFast
 import torch
+import os, uvicorn
 
 # Define the input schema
 class TranslationRequest(BaseModel):
