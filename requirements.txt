@@ -7,10 +7,6 @@ requests
 tiktoken
 protobuf
 blobfile
-numpy
-scipy
 pillow
 sentencepiece
-tqdm
-aiohttp
 
