@@ -1,7 +1,7 @@
 fastapi
 uvicorn[standard]
 transformers
-torch==1.9.0+cpu  # Or GPU version: torch==1.9.0+cu111
+torch==2.0.1  # Or GPU version: torch==1.9.0+cu111
 pydantic
 requests
 tiktoken
